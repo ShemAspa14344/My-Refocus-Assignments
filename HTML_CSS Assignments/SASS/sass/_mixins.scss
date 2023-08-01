@@ -1,0 +1,10 @@
+@mixin triangles-properties(){
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+@mixin eclipse-border-radius(){
+    border-radius: 50%;
+}

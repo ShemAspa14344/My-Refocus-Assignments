@@ -1,0 +1,21 @@
+* {
+    background-color:black ;
+    color: white;
+    font-size: 25px;
+}
+
+.quotation{
+    text-align: center;
+}
+.quotation-mark{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cornflowerblue;
+    margin: 20px 50px;
+}
+
+hr {
+    width: 40px;
+    height: 4px;
+    background-color: cornflowerblue;
+}

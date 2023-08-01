@@ -1,0 +1,52 @@
+*{
+    color: gray;
+}
+
+/* Box 1 */
+
+.Box1 {
+    height: 400px;
+    width: 400px;
+    padding: 16px;
+    border: 1px gray solid;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+#Box1H1 {
+    color: black;
+    margin-bottom: 14px;
+}
+#P1 {
+    padding-right: 38px;
+    color: red;
+    font-size: medium;
+}
+
+/* Box 2 */
+
+.Box2 {
+    height: 400px;
+    width: 400px;
+    padding: 16px;
+    border: 1px gray solid;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+#Box2H1{
+    color: black;
+    margin: 10px 5px;
+    padding: 10px 13px 11px 12px;
+}
+
+#P2 {
+    color: red;
+    padding: 6px 0px 6px 0px;
+    margin: 0px 16px 0px 16px;
+}
+p{
+    padding: 6px 0px 6px 0px;
+    margin: 0px 16px 0px 16px;
+}

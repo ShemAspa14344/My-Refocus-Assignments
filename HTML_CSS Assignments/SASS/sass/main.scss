@@ -1,0 +1,80 @@
+@use 'colors';
+@use 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    place-items: center;
+
+    .triangle-left {
+      @include mixins.triangles-properties();
+      border-right: 100px solid colors.$BlueColor;
+    }
+    
+    .triangle-up {
+      @include mixins.triangles-properties();
+      border-bottom: 100px solid colors.$OrangeColor;
+    }
+    
+    .triangle-down {
+      @include mixins.triangles-properties();
+      border-top: 100px solid colors.$RedColor;
+    }
+    
+    .triangle-right {
+      @include mixins.triangles-properties();
+      border-left: 100px solid colors.$GreenColor;
+    }
+    
+    .ellipse-horizontal {
+      width: 180px;
+      height: 90px;
+      @include mixins.eclipse-border-radius();
+    }
+    
+    .ellipse-vertical {
+      width: 90px;
+      height: 180px;
+      @include mixins.eclipse-border-radius();
+    }
+    
+    .rectangle-horizontal {
+      width: 120px;
+      height: 80px;
+    }
+    
+    .rectangle-vertical {
+      width: 80px;
+      height: 120px;
+    }
+
+    .orange {
+      background-color: colors.$OrangeColor;
+    }
+    
+    .red {
+      background-color: colors.$RedColor;
+    }
+    
+    .green {
+      background-color: colors.$GreenColor;
+    }
+    
+    .blue {
+      background-color: colors.$BlueColor;
+    }
+    
+  }
+
+  
+
+  

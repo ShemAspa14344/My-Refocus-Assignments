@@ -1,0 +1,15 @@
+.Title{
+    color: black;
+}
+*{
+    color: purple;
+}
+.classed{
+    color: red;
+}
+#heading1{
+    color: blue;
+}
+h2{
+    color: gray;
+}

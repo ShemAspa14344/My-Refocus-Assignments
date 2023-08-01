@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(3, 231, 174);
+    margin: 0%;
+    font-family: 'Roboto',sans-serif;
+    
+}
+figure img{
+    margin: 0;
+    width: 100%;
+}
+.banner-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.banner1{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 180px;
+    width: 900px;
+    border-radius: 30px;
+    border: 6px solid black;
+    padding: 30px 60px;
+    position: relative;
+    bottom: 105px;
+}
+.banner-text-1{
+    border-left: 6px solid #525453;
+    padding: 9px 0px 9px 12px;
+    grid-column: 1/3;
+    font-size: larger;
+    position: relative;
+    bottom: 10px;
+    
+}
+.squircle{
+    width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 100px 100px;
+    font-weight: 700;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/3;
+    position: relative;
+    top: 20px;
+
+}
+
+/*Banner2*/
+
+.banner-container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 700px;
+    border-radius: 30px;
+    border: 6px solid black;
+    padding: 30px 80px;
+    
+}
+.img1{
+    background-image: url('assets/img/up.png');
+    grid-column: 1/2;
+    grid-row: 1/6;
+    background-size: cover;
+    margin:33px 25px 33px 25px;
+}
+.img2{
+    background-image: url('assets/img/deped.png');
+    grid-column: 2/3;
+    grid-row: 1/6;
+    background-size: cover;
+    margin:33px 25px 33px 25px;
+  
+}
+.img3{
+    background-image: url('assets/img/letran.png');
+    grid-column: 3/4;
+    grid-row: 1/6;
+    background-size: cover;
+    margin:33px 25px 33px 25px;
+    
+} 
+ .banner-text-2{
+    grid-column: 1/4;
+    grid-row: 6/8;
+    font-weight: 500;
+}
+.space{
+   margin: 100px;
+}

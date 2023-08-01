@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+body{
+    background: url(Untitled\ design\ \(8\).png);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quiz-form{
+    background-color: whitesmoke;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 550px;
+    width: 550px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

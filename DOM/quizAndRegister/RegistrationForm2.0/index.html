@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="registration">
+      <h1 class="title">REGISTRATION FORM</h1>
+      <br />
+      <div class="allTexts">
+        <div>
+          <label for="name">First Name</label>
+          <input id="name" autocomplete="given-name" required />
+        </div>
+        <div>
+          <label for="middleName">Middle Name</label>
+          <input id="middleName" required />
+        </div>
+        <div>
+          <label for="lastName">Last Name</label>
+          <input id="lastName" required />
+        </div>
+        <div>
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" autocomplete="given-email" required />
+        </div>
+        <div>
+          <label for="region">Region</label>
+          <select name="region" id="region">
+            <option value="region1">Region I Ilocos Region</option>
+            <option value="region2">Region II Cagayan Valley</option>
+            <option value="region3">Region III Central Luzon</option>
+            <option value="region4">Region IV A CALABARZON</option>
+            <option value="mimaropa">MIMAROPA Region</option>
+            <option value="region5">Region V Bicol Region</option>
+            <option value="region6">Region VI Western Visayas</option>
+            <option value="region7">Region VII Central Visayas</option>
+            <option value="region8">Region VIII Eastern Visayas</option>
+            <option value="region9">Region IX Zamboanga Peninsula</option>
+            <option value="region10">Region X Northern Mindanao</option>
+            <option value="region11">Region XI Davao Region</option>
+            <option value="region12">Region XII SOCCSKSARGEN</option>
+            <option value="region13">Region XIII Caraga</option>
+            <option value="ncr">NCR National Capital Region</option>
+            <option value="car">CAR Cordillera Administrative Region</option>
+            <option value="barmm">
+              BARMM Bangsamoro Autonomous Region in Muslim Mindanao
+            </option>
+          </select>
+        </div>
+        <div>
+          <label for="province">Province</label>
+          <input id="province" required />
+        </div>
+        <div>
+          <label for="barangay">Barangay</label>
+          <input id="barangay" required />
+        </div>
+        <div>
+          <label for="street">Street</label>
+          <input id="street" required />
+        </div>
+        <div class="radio-container">
+          <label id="gender">Gender</label>
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+
+          <input type="radio" id="other" name="gender" value="other" />
+          <label for="other">Others?</label>
+        </div>
+        <div>
+          <label for="vaccine1">Vaccine brand (dose 1)</label>
+          <select name="vaccine1" id="vaccine1">
+            <option value="Pfizer">Pfizer BioNTech</option>
+            <option value="AstraZeneca">AstraZeneca</option>
+            <option value="Coronavac">Coronavac</option>
+            <option value="Sputnik">Sputnik V</option>
+            <option value="Janssen">Janssen</option>
+            <option value="Covaxin">Covaxin</option>
+            <option value="Moderna">Moderna</option>
+            <option value="Sinopharm">Sinopharm</option>
+            <option value="Covovax">Covovax</option>
+          </select>
+        </div>
+        <div>
+          <label for="date1">Date of first dose</label>
+          <input type="date" name="date1" id="date1" required />
+        </div>
+        <div>
+          <label for="site">SIte of first dose</label>
+          <input type="text" name="site" id="site" required />
+        </div>
+        <div>
+          <label for="yesno">Are you already on second dose?</label>
+          <label for="yes">Yes</label>
+          <input type="radio" name="yesno" id="yes" value="yes" />
+
+          <label for="no">No</label>
+          <input type="radio" name="yesno" id="no" value="no" />
+
+          <div id="yesno-container"></div>
+        </div>
+
+        <div id="vax2" style="display: none">
+          <label for="vaccine2">Vaccine brand (dose 1)</label>
+          <select name="vaccine2" id="vaccine2">
+            <option value="Pfizer">Pfizer BioNTech</option>
+            <option value="AstraZeneca">AstraZeneca</option>
+            <option value="Coronavac">Coronavac</option>
+            <option value="Sputnik">Sputnik V</option>
+            <option value="Janssen">Janssen</option>
+            <option value="Covaxin">Covaxin</option>
+            <option value="Moderna">Moderna</option>
+            <option value="Sinopharm">Sinopharm</option>
+            <option value="Covovax">Covovax</option>
+          </select>
+
+          <label for="dateDose2">Date of Vaccination (Dose 2):</label>
+          <input type="date" id="dateDose2" />
+          <br />
+          <br />
+
+          <label for="siteDose2">Vaccination (Dose 2) Site:</label>
+          <input type="text" id="siteDose2"/>
+          <br />
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding-bottom: 20px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgba(0, 245, 253, 0.5), rgba(115, 2, 221, 0.5)), url('Pictures/Untitled design (3).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title, h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(2, 30, 90, 0.705);
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+    bottom: 20px;
+ 
+}
+form{
+    display: flex;
+    position: relative;
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+   
+}
+input {
+    border: 1px solid transparent;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+.allTexts{
+    position: relative;
+    top: 80px;
+}
+
+input[type="radio"] {
+   
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+button {
+    border: blueviolet;
+    height: 80px;
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    position: relative;
+    left: 100px;
+    top: 15px;
+}
+
+label {
+    display: inline-block; 
+    width: 100px; 
+    margin-right: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  
+  input {
+    display: inline-block; 
+    width: 200px;
+  }
